@@ -1,0 +1,112 @@
+.sidenav a
+{
+  border-bottom: 1px solid rgba(140, 140, 140, 0.15);
+  padding: 5%;
+  text-decoration: none;
+  font-family: "MyriadPro";
+  font-size: 12px;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  color: #B3B3B3;
+  display: block;
+  transition: 0.5s;
+  font-weight: bold;
+}
+.closebtn {
+  margin-left: 90%;
+  color: #B3B3B3;
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+.sidenavhead {
+  text-align: center;
+  color: #B3B3B3;
+  padding: 5%;
+  margin-bottom: 5%;
+  font-variant: small-caps;
+  letter-spacing: 1px;
+  font-size: 30px;
+}
+.edit-button{
+  width: 5%;
+  height: 5%;
+  position:absolute;
+  z-index: 1000;
+}
+.mainsidenav {
+  height: 100%;
+  width: 0%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 30px;
+
+  background: -webkit-linear-gradient(rgb(68, 68, 68), black); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(rgb(68, 68, 68), black); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(#rgb(68, 68, 68), black); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(rgb(68, 68, 68), black); /* Standard syntax (must be last) */
+}
+.mainsidenav::-webkit-scrollbar {
+    display: none;
+}
+.logosidenav, .logosizesidenav, .bgsidenav, .textsidenav, .bgsidenav2, .textsidenav2 {
+  height: 0;
+  width: inherit;
+  overflow-x: hidden;
+  padding-left: 10%;
+  text-decoration: none;
+  font-family: "MyriadPro";
+  font-size: 12px;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  color: #B3B3B3;
+  font-weight: bold;
+  list-style: none;
+}
+ul .ul-list {
+  list-style: none;
+  transition: 0.5s;
+}
+label.sidenav-buttons p:hover{
+  background-color: #ad8f73;
+  color: #676060;
+  width: 50%;
+  transition: 0.5s;
+}
+label.save-publish p:hover{
+  background-color: #ad8f73;
+  color: #676060;
+  width: 50%;
+  transition: 0.5s;
+}
+.save-button {
+  display: none;
+}
+label.sidenav-buttons input[type=file] {
+  display: none;
+}
+label.sidenav-buttons input[type=text] {
+  padding: 5px;
+}
+.slide1submenu, .slide2submenu, .slide3submenu, .slide4submenu{
+  height: 0;
+  overflow-x: hidden;
+}
+.slide1submenu a, .slide2submenu a, .slide3submenu a, .slide4sidemenu a {
+  list-style: initial;
+  padding-left: 10%;
+}
+.sidenav a:hover{
+  background-color: #ad8f73;
+  color: #676060;
+  font-weight: bold;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}

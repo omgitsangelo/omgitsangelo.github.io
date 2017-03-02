@@ -1,0 +1,167 @@
+.copyright {
+	width: 100%;
+	background-color: rgba(30,30,30,0.7);
+	color: #FFFFFF;
+	height: 10%;
+	z-index: 15;
+	font-weight: lighter;
+	z-index: 1000;
+	clear: both;
+	padding: 0;
+	margin: 0;
+	position: fixed;
+	bottom: 0;
+}
+.left {
+	z-index: 5;
+	height: 100%;
+	display: table;
+}
+.left-container {
+	text-align: center;
+	display: table-cell;
+	verical-align: middle;
+	height: 100%;
+}
+.left .row {
+	text-align: center;
+	height: 50%;
+}
+.left .parent {
+}
+.left .partners {
+}
+
+.center{
+	height: 100%;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 20px;
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	height: 100%;
+	font-size: 14px;
+	display: table;
+}
+.center strong {
+	display: table-cell;
+	vertical-align: middle;
+	margin: auto;
+}
+.right{
+	height: 100%;
+	display: table;
+}
+.right div {
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+@media (max-width: 320px) {
+
+	[class*="col-"]	{
+  	float: left;
+  	width: 100%;
+	}
+	.copyright {
+		height: auto;
+		position: inherit;
+	}
+	.partners {
+		height: 30px;
+	}
+	.center strong {
+		display: table-cell;
+		vertical-align: middle;
+		margin: auto;
+	}
+	.right{
+		height: 100%;
+		display: table;
+	}
+	.right div {
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+@media (min-width: 321px) and (max-width: 545px) {
+	[class*="col-"]	{
+  	float: left;
+  	width: 100%;
+	}
+	.copyright {
+		height: auto;
+		position: inherit;
+	}
+	.left {
+	}
+	.partners {
+		height: 30px;
+	}
+	.social {
+		height: 10px;
+	}
+	.center strong {
+		display: table-cell;
+		vertical-align: middle;
+		margin: auto;
+	}
+	.right{
+		height: 100%;
+		display: table;
+	}
+	.right div {
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+@media (min-width: 546px) and (max-width: 767px) {
+	.copyright {
+		height: auto;
+		position: inherit;
+	}
+	.left {
+	}
+	.logos {
+	}
+	.center strong {
+		display: table-cell;
+		vertical-align: middle;
+		margin: auto;
+	}
+	.right{
+		height: 100%;
+		display: table;
+	}
+	.right div {
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
+@media (min-width: 768px) and (max-width: 1096px) {
+	[class*="col-"]	{
+	}
+	.copyright {
+		height: 7%;
+	}
+	.left {
+	}
+	.center strong {
+		display: table-cell;
+		vertical-align: middle;
+		margin: auto;
+	}
+	.right{
+		height: 100%;
+		display: table;
+	}
+	.right div {
+		text-align: center;
+		display: table-cell;
+		vertical-align: middle;
+	}
+}
